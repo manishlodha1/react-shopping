@@ -1,0 +1,45 @@
+.catItemContainer{
+    flex: 1;
+    margin: 3px;
+    height: 70vh;
+    position: relative;
+}
+
+.catItemImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.catItemInfo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catItemInfoTitle{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.catItemInfoBtn{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 380px){
+    .catItemImg{
+        height: 20vh;
+    }
+}

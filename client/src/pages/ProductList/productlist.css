@@ -1,0 +1,44 @@
+.productlistContainer{}
+
+.productlistTitle{
+    margin: 20px;
+}
+
+.productlistFilterContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productlistFilters{
+    margin: 20px;
+}
+
+.filtersText{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px; 
+}
+
+.filterSelect{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.filterSelectOption{}
+
+
+@media screen and (max-width: 380px){
+   .productlistFilters{
+        width: 0px 20px;
+        display: flex;
+        flex-direction: column;
+   }
+
+   .filtersText{
+        margin-right: 0px;
+   }
+
+   .filterSelect{
+        margin: 10px 0px;
+   }
+}
